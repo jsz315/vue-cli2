@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+<meta name="description" content="趣晒,qushai"/>
+<meta name="keywords" content="趣晒,qushai"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta content="telephone=no" name="format-detection" />
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+
+ <script>        
+    (function (doc, win) {    
+        var docEl = doc.documentElement,    
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',    
+        recalc = function () {    
+        var clientWidth = docEl.clientWidth;    
+        if (!clientWidth) return;    
+        docEl.style.fontSize = (clientWidth / 10) + 'px';    
+    };    
+    if (!doc.addEventListener) return;    
+    win.addEventListener(resizeEvt, recalc, false);    
+    doc.addEventListener('DOMContentLoaded', recalc, false);    
+    })(document, window);    
+</script>
